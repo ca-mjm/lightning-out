@@ -9,7 +9,10 @@
             () => {
                 $Lightning.createComponent(
                     'c:formComplementoPaternidad',
-                    {},
+                    {
+                        ipAddress: '255.255.255.255',
+                        sourceUrl: 'https://www.campmanyabogados.com/tests3'
+                    },
                     document.querySelector('.ltngOutContainer'),
                     (cmp) => {
                         console.log('Lighning component created.');
